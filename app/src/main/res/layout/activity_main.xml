@@ -19,13 +19,12 @@
 
   </com.google.android.material.appbar.AppBarLayout>
 
-  <com.google.android.material.floatingactionbutton.FloatingActionButton
-    android:id="@+id/fab"
-    android:layout_gravity="bottom|end"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="16dp"
-    android:layout_marginEnd="@dimen/fab_margin"
-    android:layout_width="wrap_content"
-    app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+      android:id="@+id/custom_tab_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Open Custom Tab"
+      android:layout_gravity="center"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
